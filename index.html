@@ -32,7 +32,7 @@
     
     <button onclick=WomenGraph()> Click to remove men</button>
     <button onclick=MenGraph()> Click to remove women</button>
-    <div id="barchartdiv"></div>
+    <div style="float: left;"id="barchartdiv"></div>
 
   
   <script>
@@ -113,7 +113,7 @@ svgLegend.append("circle").attr("cx",220).attr("cy",30).attr("r", 6).style("fill
 
 svgLegend.append("text").attr("x", 30).attr("y", 30).text("Men").style("font-size", "16px").attr("alignment-baseline","middle")
 svgLegend.append("text").attr("x", 130).attr("y", 30).text("Women").style("font-size", "16px").attr("alignment-baseline","middle")
-svgLegend.append("text").attr("x", 230).attr("y", 30).text("Water").style("font-size", "16px").attr("alignment-baseline","middle")
+svgLegend.append("text").attr("x", 230).attr("y", 30).text("Pumps").style("font-size", "16px").attr("alignment-baseline","middle")
 
 
 var svg = d3.select("#test")
